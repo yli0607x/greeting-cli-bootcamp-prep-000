@@ -2,6 +2,7 @@
 require_relative "../lib/greeting.rb"
 
 puts "Hi! I'm Hal, what's your name?"
+
 name = gets.chomp
 greeting(name)
 # code your CLI here!
